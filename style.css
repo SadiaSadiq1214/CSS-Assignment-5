@@ -1,0 +1,36 @@
+*{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+.main-title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.intro-paragraph{
+    font-style: italic;
+    line-height: 1.5px;
+}
+
+.content-paragraph{
+    text-transform: uppercase;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+.nav-link{
+    color: forestgreen;
+    text-decoration: none;
+}
+
+.color-box{
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
